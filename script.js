@@ -26,7 +26,7 @@ function sendMessage() {
         addMessage('user', message);
         input.value = '';
         
-        fetch('https://aideploymentmai.vercel.app/life_chat', {
+        fetch('mai-deploy-k2q1nvy68-suryas-projects-4fae7da5.vercel.app', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
